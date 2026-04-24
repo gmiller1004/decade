@@ -16,13 +16,38 @@ const spaceGrotesk = Space_Grotesk({
   variable: "--font-display",
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://decade.vercel.app";
+const shareDescription =
+  "DECADE is a prestige drama series pitch: a Faustian rock-and-roll odyssey following Desmond Kane from meteoric rise to supernatural collapse.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: "DECADE — Series Pitch",
     template: "%s — DECADE",
   },
-  description:
-    "DECADE: A life told through rock & roll. Series treatment, season one episode breakdown, and teleplays for studio consideration.",
+  description: shareDescription,
+  openGraph: {
+    title: "DECADE — Series Pitch",
+    description: shareDescription,
+    url: "/",
+    siteName: "DECADE",
+    images: [
+      {
+        url: "/media/desmond-layla-episode-1.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Desmond and Layla from DECADE episode one",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "DECADE — Series Pitch",
+    description: shareDescription,
+    images: ["/media/desmond-layla-episode-1.jpg"],
+  },
 };
 
 export default function RootLayout({
