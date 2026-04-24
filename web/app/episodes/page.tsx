@@ -49,6 +49,11 @@ export default function EpisodesPage() {
                 </span>
               )}
             </p>
+            {ep.number === 1 ? (
+              <p className="mt-2 text-xs uppercase tracking-wide text-stone-500">
+                Includes stills gallery
+              </p>
+            ) : null}
           </li>
         ))}
       </ol>

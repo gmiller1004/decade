@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -22,6 +23,31 @@ export default function Home() {
         iconic song becomes a chapter in his meteoric rise, moral collapse,
         bloody revenge, and eternal entrapment.
       </p>
+
+      <section className="mt-10 overflow-hidden rounded-xl border border-amber-400/30 bg-stone-900/70">
+        <Image
+          src="/media/desmond-layla-episode-1.jpg"
+          alt="Desmond and Layla from episode one"
+          width={1600}
+          height={900}
+          className="h-64 w-full object-cover md:h-80"
+          priority
+        />
+        <div className="space-y-3 px-5 py-4 md:px-6">
+          <p className="font-display text-sm uppercase tracking-widest text-amber-300">
+            Featured still · Episode 1
+          </p>
+          <p className="text-stone-300">
+            Desmond and Layla at the edge of the deal that launches the series.
+          </p>
+          <Link
+            href="/scripts/spirit-in-the-sky"
+            className="font-display text-sm font-semibold uppercase tracking-wide text-amber-400 underline-offset-4 hover:text-amber-300 hover:underline"
+          >
+            View pilot teleplay and stills →
+          </Link>
+        </div>
+      </section>
 
       <div className="mt-12 grid gap-4 sm:grid-cols-2">
         <Link

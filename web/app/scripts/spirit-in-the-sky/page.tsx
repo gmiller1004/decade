@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { EpisodeStillsGallery } from "@/components/EpisodeStillsGallery";
 import { PageHeader } from "@/components/PageHeader";
 import { PilotTeleplay } from "@/components/teleplays/PilotTeleplay";
+import { pilotStills } from "@/lib/stills";
 
 export const metadata: Metadata = {
   title: "Pilot — Spirit in the Sky",
@@ -28,6 +30,11 @@ export default function PilotScriptPage() {
         />
       </div>
       <PilotTeleplay />
+      <EpisodeStillsGallery
+        title="Episode 1 Stills"
+        subtitle="Key imagery for the pilot pitch packet."
+        stills={pilotStills}
+      />
       <p className="mt-12 text-center text-xs text-stone-500">
         DECADE pilot teleplay • April 23, 2026
       </p>
