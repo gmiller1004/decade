@@ -26,6 +26,7 @@ export const season1Episodes: SeasonEpisode[] = [
     songTitle: "Hollywood Nights",
     synopsis:
       "LA arrival. Glitz, A&R seduction, first big show. The city swallows them. First real moral compromise.",
+    scriptSlug: "hollywood-nights",
   },
   {
     number: 4,
