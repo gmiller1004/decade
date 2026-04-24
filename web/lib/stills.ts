@@ -39,3 +39,21 @@ export const episode2Stills: EpisodeStill[] = [
     caption: "The wings close in as the price of the deal grows clearer.",
   },
 ];
+
+export const episode3Stills: EpisodeStill[] = [
+  {
+    src: "/media/decade-eps-3-strip.jpg",
+    alt: "Desmond and Layla arriving on the Hollywood Strip in episode three",
+    caption: "First arrival energy on the Strip as Hollywood opens up.",
+  },
+  {
+    src: "/media/decade-eps-3-club.jpg",
+    alt: "Desmond performing in a small Hollywood club in episode three",
+    caption: "The breakout club set that gets industry eyes on Desmond.",
+  },
+  {
+    src: "/media/decade-eps-3-chilling.jpg",
+    alt: "Dark ominous moment from episode three",
+    caption: "A chilling turn as the supernatural cost starts surfacing.",
+  },
+];

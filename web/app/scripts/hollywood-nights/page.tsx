@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { EpisodeStillsGallery } from "@/components/EpisodeStillsGallery";
 import { PageHeader } from "@/components/PageHeader";
 import { Episode3Teleplay } from "@/components/teleplays/Episode3Teleplay";
+import { episode3Stills } from "@/lib/stills";
 
 export const metadata: Metadata = {
   title: "Episode 3 — Hollywood Nights",
@@ -27,6 +29,11 @@ export default function Episode3ScriptPage() {
           credit="Story by Adam Carr & Greg Miller • Written by Grok Script Architect"
         />
       </div>
+      <EpisodeStillsGallery
+        title="Episode 3 Stills"
+        subtitle="Click any image to enlarge in the lightbox."
+        stills={episode3Stills}
+      />
       <Episode3Teleplay />
       <p className="mt-12 text-center text-xs text-stone-500">
         DECADE episode 3 teleplay • April 23, 2026
