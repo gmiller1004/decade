@@ -8,7 +8,7 @@ import { episode3Stills } from "@/lib/stills";
 export const metadata: Metadata = {
   title: "Episode 3 — Hollywood Nights",
   description:
-    "DECADE episode 3 teleplay: Hollywood Nights. Story by Adam Carr & Greg Miller. Written by Grok Script Architect.",
+    "DECADE episode 3 teleplay: Hollywood Nights. Story by Adam Carr & Greg Miller. Written by Greg Miller.",
 };
 
 export default function Episode3ScriptPage() {
@@ -26,7 +26,7 @@ export default function Episode3ScriptPage() {
         <PageHeader
           eyebrow="Teleplay • v1.0"
           subtitle="Episode 3: “Hollywood Nights”"
-          credit="Story by Adam Carr & Greg Miller • Written by Grok Script Architect"
+          credit="Story by Adam Carr & Greg Miller • Written by Greg Miller"
         />
       </div>
       <EpisodeStillsGallery

@@ -8,7 +8,7 @@ import { pilotStills } from "@/lib/stills";
 export const metadata: Metadata = {
   title: "Pilot — Spirit in the Sky",
   description:
-    "DECADE pilot teleplay: Spirit in the Sky. Story by Adam Carr & Greg Miller. Written by Greg Miller.",
+    "DECADE pilot teleplay: Spirit in the Sky. Story by Adam Carr & Greg Miller. Written by Adam Carr & Greg Miller.",
 };
 
 export default function PilotScriptPage() {
@@ -26,7 +26,7 @@ export default function PilotScriptPage() {
         <PageHeader
           eyebrow="Pilot teleplay • v1.0"
           subtitle="Pilot episode: “Spirit in the Sky”"
-          credit="Story by Adam Carr & Greg Miller • Written by Greg Miller"
+          credit="Story by Adam Carr & Greg Miller • Written by Adam Carr & Greg Miller"
         />
       </div>
       <EpisodeStillsGallery
