@@ -21,3 +21,21 @@ export const pilotStills: EpisodeStill[] = [
     caption: "Layla in the teaser, pushing Desmond toward the fire.",
   },
 ];
+
+export const episode2Stills: EpisodeStill[] = [
+  {
+    src: "/media/decade-eps-2-diner.jpg",
+    alt: "Desmond and Layla at the roadside diner in episode two",
+    caption: "Roadside diner dawn stop as Desmond and Layla push west.",
+  },
+  {
+    src: "/media/decade-eps-2-skyline.jpg",
+    alt: "California skyline in episode two",
+    caption: "First sight of California and the promise of Hollywood.",
+  },
+  {
+    src: "/media/decade-eps-2-wings.jpg",
+    alt: "Golden wings imagery from episode two",
+    caption: "The wings close in as the price of the deal grows clearer.",
+  },
+];

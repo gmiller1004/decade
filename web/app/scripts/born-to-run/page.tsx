@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { EpisodeStillsGallery } from "@/components/EpisodeStillsGallery";
 import { PageHeader } from "@/components/PageHeader";
 import { Episode2Teleplay } from "@/components/teleplays/Episode2Teleplay";
+import { episode2Stills } from "@/lib/stills";
 
 export const metadata: Metadata = {
   title: "Episode 2 — Born to Run",
@@ -27,6 +29,11 @@ export default function Episode2ScriptPage() {
           credit="Story by Adam Carr & Greg Miller • Written by Greg Miller"
         />
       </div>
+      <EpisodeStillsGallery
+        title="Episode 2 Stills"
+        subtitle="Click any image to enlarge in the lightbox."
+        stills={episode2Stills}
+      />
       <Episode2Teleplay />
       <p className="mt-12 text-center text-xs text-stone-500">
         DECADE episode 2 teleplay • April 23, 2026
