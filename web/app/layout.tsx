@@ -39,7 +39,19 @@ export default function RootLayout({
         <SiteNav />
         <div className="flex flex-1 flex-col">{children}</div>
         <footer className="mt-auto border-t border-amber-400/20 bg-stone-950 px-6 py-8 text-center text-xs text-stone-500">
-          <p>DECADE • Pitch materials • April 2026</p>
+          <p className="font-display text-[11px] font-semibold uppercase tracking-wide text-amber-200">
+            NOTICE: All materials on this site are protected intellectual
+            property.
+          </p>
+          <p className="mt-2 font-display text-[11px] font-semibold uppercase tracking-wide text-amber-300">
+            DECADE and all related story, character, and visual concepts are
+            the exclusive intellectual property of Adam Carr and Greg Miller.
+          </p>
+          <p className="mt-2 font-display text-[11px] font-semibold uppercase tracking-wide text-amber-300">
+            Concept created in 2010. Unauthorized use, adaptation, or
+            reproduction is prohibited.
+          </p>
+          <p className="mt-3">© DECADE • Adam Carr & Greg Miller • All rights reserved.</p>
           <p className="mt-2">
             For studio consideration —{" "}
             <Link

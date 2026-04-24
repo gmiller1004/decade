@@ -29,12 +29,12 @@ export default function PilotScriptPage() {
           credit="Story by Adam Carr & Greg Miller • Written by Greg Miller"
         />
       </div>
-      <PilotTeleplay />
       <EpisodeStillsGallery
         title="Episode 1 Stills"
-        subtitle="Key imagery for the pilot pitch packet."
+        subtitle="Click any image to enlarge in the lightbox."
         stills={pilotStills}
       />
+      <PilotTeleplay />
       <p className="mt-12 text-center text-xs text-stone-500">
         DECADE pilot teleplay • April 23, 2026
       </p>
