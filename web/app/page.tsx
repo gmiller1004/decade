@@ -24,21 +24,23 @@ export default function Home() {
         bloody revenge, and eternal entrapment.
       </p>
 
-      <section className="mt-10 overflow-hidden rounded-xl border border-amber-400/30 bg-stone-900/70">
-        <Image
-          src="/media/desmond-layla-episode-1.jpg"
-          alt="Desmond and Layla from episode one"
-          width={1600}
-          height={900}
-          className="h-64 w-full object-cover md:h-80"
-          priority
-        />
-        <div className="space-y-3 px-5 py-4 md:px-6">
+      <section className="mt-10 rounded-xl border border-amber-400/30 bg-stone-900/70 p-4 sm:p-6">
+        <div className="mx-auto w-full max-w-md overflow-hidden rounded-lg border border-amber-400/30 bg-stone-950 shadow-2xl shadow-black/40">
+          <Image
+            src="/media/decade-key-art.jpg"
+            alt="DECADE key art poster"
+            width={1400}
+            height={2100}
+            className="h-auto w-full object-contain"
+            priority
+          />
+        </div>
+        <div className="mt-5 space-y-3 text-center">
           <p className="font-display text-sm uppercase tracking-widest text-amber-300">
-            Featured still · Episode 1
+            Series key art
           </p>
           <p className="text-stone-300">
-            Desmond and Layla at the edge of the deal that launches the series.
+            Official DECADE poster art for pitch and packaging.
           </p>
           <Link
             href="/scripts/spirit-in-the-sky"
