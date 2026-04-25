@@ -33,6 +33,7 @@ export const season1Episodes: SeasonEpisode[] = [
     songTitle: "Tiny Dancer",
     synopsis:
       "Desmond becomes the star. Layla as muse. One perfect night in the spotlight — before the cracks spiderweb.",
+    scriptSlug: "tiny-dancer",
   },
   {
     number: 5,
