@@ -57,3 +57,21 @@ export const episode3Stills: EpisodeStill[] = [
     caption: "A chilling turn as the supernatural cost starts surfacing.",
   },
 ];
+
+export const episode4Stills: EpisodeStill[] = [
+  {
+    src: "/media/decade-eps-4-balcony.jpg",
+    alt: "Desmond and Layla on the balcony in episode four",
+    caption: "Balcony intimacy at the edge of their Hollywood breakthrough.",
+  },
+  {
+    src: "/media/decade-eps-4-studio.jpg",
+    alt: "Desmond in the recording studio in episode four",
+    caption: "Studio momentum as industry pressure starts closing in.",
+  },
+  {
+    src: "/media/decade-eps-4-wings.jpg",
+    alt: "Golden wings imagery from episode four",
+    caption: "The wings return as the cost of fame becomes unavoidable.",
+  },
+];

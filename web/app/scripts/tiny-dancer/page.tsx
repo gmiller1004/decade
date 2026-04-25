@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { EpisodeStillsGallery } from "@/components/EpisodeStillsGallery";
 import { PageHeader } from "@/components/PageHeader";
 import { Episode4Teleplay } from "@/components/teleplays/Episode4Teleplay";
+import { episode4Stills } from "@/lib/stills";
 
 export const metadata: Metadata = {
   title: "Episode 4 — Tiny Dancer",
@@ -27,6 +29,11 @@ export default function Episode4ScriptPage() {
           credit="Story by Adam Carr & Greg Miller • Written by Greg Miller"
         />
       </div>
+      <EpisodeStillsGallery
+        title="Episode 4 Stills"
+        subtitle="Click any image to enlarge in the lightbox."
+        stills={episode4Stills}
+      />
       <Episode4Teleplay />
       <p className="mt-12 text-center text-xs text-stone-500">
         DECADE episode 4 teleplay • Locked version • April 23, 2026
